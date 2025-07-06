@@ -1,14 +1,10 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+const page = () => {
 
-
-export default function Home() {
   return (
     <div>
-      <h1>how are you</h1>
-      <Button>
-        click here
-      </Button>
+      hello world
     </div>
   );
 }
+
+export default page;
